@@ -1,0 +1,202 @@
+/* Página Principal */
+body {
+  font-family: sans-serif;
+  background: rgb(138, 138, 138);
+}
+
+header{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+header a {
+  padding: 1%;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+}
+
+h1, h2, h3{
+  text-shadow: 2px 2px rgb(54, 54, 54);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 250%;
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: none
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 175%;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+main {
+  padding-top: 1%;
+  padding-bottom: 5%;
+  max-width: 940px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-image{
+  border: 5px solid black;
+  background-color: rgb(0, 0, 0);
+  width: 70%;
+  margin-left: 15%;
+  opacity: 50%;
+  margin-top: 2.5%;
+  border-radius: 5%;
+}
+
+main img {
+  margin-bottom: -5%;
+  width: 95%;
+}
+
+.beneficios h3 {
+  text-align: center;
+  color: rgb(0, 199, 27);
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+li {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 150%;
+}
+
+@media only screen and (max-width: 600px) {
+  header{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+  }
+  main img{
+    width: 100%;
+  }
+}
+
+/* Página serviços */
+.servicos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50em;
+}
+
+.servico:first-of-type{
+  margin-top: 5%;
+}
+
+.servico {
+  margin: 27.5% 30%;
+  height: 50%;
+}
+
+.servico img {
+  border: 2px solid black;
+  border-radius: 10%;
+  box-shadow: 4px 2px rgb(53, 53, 53);
+}
+
+.servico img:hover{
+  opacity: 60%;
+}
+
+.servico h2 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.servico img {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  color: white;
+  text-align: justify;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .servico:first-of-type{
+    margin-top: 15%;
+  }
+  .servico{
+    margin: 85% 20%;
+    height: 25%;
+  }
+}
+
+/* Página Contato */
+
+main h2 {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  text-align: center;
+}
+
+main h2:last-child:after {
+  content:"  (aproximada)"
+}
+
+
+.nome, .mensagem, .mapa, .botao{
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background: linear-gradient(90deg, rgba(172,20,0,1) 0%, rgba(255,0,0,0.9668242296918768) 56%, rgba(255,51,0,1) 79%);
+  color: white;
+  border: none;
+  font-size: 120%;
+  margin-top: 2%;
+  padding: 1.5%;
+  margin-bottom: 2%;
+  border: 2px solid black;
+}
+
+.texto {
+  width: 40.5%;
+}
+
+iframe{
+  border: 2px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  .texto {
+    width: 90%
+  }
+  main h2:first-of-type {
+    margin-top: 5%;
+    margin-bottom: 10.5%;
+  }
+  .mapa{
+    width: 90%;
+    display: flex;
+    margin: auto;
+  }
+}
+
