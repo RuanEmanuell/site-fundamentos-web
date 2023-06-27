@@ -167,7 +167,7 @@ main h2:last-child:after {
 }
 
 .button {
-  background: linear-gradient(90deg, rgba(172,20,0,1) 0%, rgba(255,0,0,0.9668242296918768) 56%, rgba(255,51,0,1) 79%);
+  background: linear-gradient(90deg, rgba(172,20,0,1) 0%, rgba(255,0,0,0.9668242296918768) 100%);
   color: white;
   border: none;
   font-size: 120%;
@@ -183,6 +183,28 @@ main h2:last-child:after {
 
 iframe{
   border: 2px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #e7e7e7;
+  border: 2px solid black;
+  text-align: center;
+}
+
+th {
+  background-color: #bebebe;
+}
+
+td {
+  background-color: #f2f2f2;
 }
 
 @media only screen and (max-width: 600px) {
