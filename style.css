@@ -97,19 +97,16 @@ li {
 
 /* Página serviços */
 .servicos {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   height: 50em;
 }
 
-.servico:first-of-type{
-  margin-top: 5%;
-}
-
 .servico {
-  margin: 27.5% 30%;
   height: 50%;
+  margin: 1%;
+  width: auto;
 }
 
 .servico img {
@@ -139,6 +136,13 @@ p {
 
 
 @media only screen and (max-width: 600px) {
+  .servicos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50em;
+  }  
+
   .servico:first-of-type{
     margin-top: 15%;
   }
@@ -146,6 +150,8 @@ p {
     margin: 85% 20%;
     height: 25%;
   }
+
+  
 }
 
 /* Página Contato */
@@ -161,9 +167,21 @@ main h2:last-child:after {
 }
 
 
-.nome, .mensagem, .mapa, .botao{
+.nome, .mensagem, .mapa, .botao, .select{
   display: flex;
   justify-content: center;
+}
+
+.contato h3{
+  margin: 1% 0; 
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+select{
+  padding: 1%;
 }
 
 .button {
