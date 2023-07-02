@@ -1,5 +1,5 @@
 # site-fundamentos-web
-Site estático simples feito para a disciplina de Fundamentos da Web ao longo do primeiro período de ADS.
+Site estático simples feito para a disciplina de Fundamentos da Web ao longo do primeiro período de ADS, como forma de aprendizagem das linguagens HTML e CSS.
 
 Acesso <a href="https://ruanemanuell.github.io/site-fundamentos-web/">aqui<a>.
 
